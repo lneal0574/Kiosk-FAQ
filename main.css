@@ -1,3 +1,32 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* Body */
+html,body
+{
+
+}
+
+/* Navbar */
+
+/* Jumbotron for FAQ */
+.container.jumbo-container
+{
+  text-align: center;
+  margin-top: -1%;
+  margin-bottom: -1%
+}
+.jumbotron.FAQ-jumbotron
+{
+  background: none;
+}
+
+/* Accordion */
+.container.accordion-container
+{
+  margin-bottom: 5%;
+}
+.card-header
+{
+  text-align: center;
+}
