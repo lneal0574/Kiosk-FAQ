@@ -1,28 +1,32 @@
 @charset "utf-8";
 /* CSS Document */
+html
+{
+  position: relative;
+  min-height: 100%;
+}
 
 /* Body */
-html,body
+body
 {
-
+  /* Margin for footer */
+  margin-bottom: 200px;
 }
 
 /* Navbar */
-.navbar.myNav
+.myNav
 {
   background-color: #4F2984;
 }
-.navbar-brand
-{
-  color: white;
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.6)
 }
-.nav-link
-{
-  color: grey;
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #FFDD00
 }
-.nav-link:hover
+.navbar-toggler
 {
-  color: white;
+  background: 0 0;
 }
 
 /* Jumbotron for FAQ */
@@ -40,7 +44,7 @@ html,body
 /* Accordion */
 .container.accordion-container
 {
-  margin-bottom: 5%;
+  margin-bottom: 16rem;
 }
 .card-header
 {
@@ -52,4 +56,31 @@ html,body
 {
   color: white;
   text-decoration: none;
+}
+
+/* Footer */
+.footer
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set fixed height */
+  height: 200px;
+  background-color: #323232;
+}
+.footer a
+{
+  color: white;
+}
+.container.footer-container
+{
+  margin-top: 18.5px;
+}
+.list-group.linksGroup
+{
+  margin-top: 2%;
+}
+.list-group.links2Group
+{
+  margin-top: 2%;
 }
