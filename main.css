@@ -10,7 +10,7 @@ html
 body
 {
   /* Margin for footer */
-  margin-bottom: 200px;
+  margin-bottom: 180px;
 }
 
 /* Navbar */
@@ -65,8 +65,8 @@ body
   bottom: 0;
   width: 100%;
   /* Set fixed height */
-  height: 200px;
-  background-color: #323232;
+  height: 180px;
+  background-color: #4F2984;
 }
 .footer a
 {
@@ -79,8 +79,10 @@ body
 .list-group.linksGroup
 {
   margin-top: 2%;
+  text-align: center;
 }
 .list-group.links2Group
 {
   margin-top: 2%;
+  text-align: center;
 }
